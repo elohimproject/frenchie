@@ -95,3 +95,23 @@ let card = {
     value: 0
 };
 console.log(card);
+
+let card = {
+    suit: "diamonds", "hearts",
+    rank: "joker",
+    value: -1
+};
+console.log(card);
+
+class Deck {
+    constructor() {
+        this.cards = [];    
+    }
+                       
+    createDeck() {
+        
+    }
+shuffleDeck() {
+        
+    }
+}
